@@ -1,7 +1,7 @@
 # import os
 import cv2
 
-img = cv2.imread("nature.jpg")
+img = cv2.imread(r"img\nature.jpg")
 
 encryption_Message = input("Enter Secret Message -> ")
 password = input("Enter a Password -> ")
